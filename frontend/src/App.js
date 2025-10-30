@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Calendar, MapPin, Users, LogOut, User } from 'lucide-react';
 import './App.css';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://meetmatch.onrender.com/api';
 
 export default function CollegeEventsApp() {
   const [view, setView] = useState('login');
